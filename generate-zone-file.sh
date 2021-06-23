@@ -4,7 +4,7 @@
 # sh generate-zone-file.sh domain_name github_repo
 
 # Example:
-# sh generate-zone-file.sh productioncontrol.com. prodctrl/zone-file-example
+# sh generate-zone-file.sh example.com. prodctrl/zone-file-example
 
 
 # Command-line styles
@@ -22,7 +22,7 @@ if [ -z "$1" -o -z "$2" ] ; then
 	echo "${style_error}Required parameters missing!${style_reset}"
 	echo
 	echo "	${style_success}Example:"
-	echo "		sh generate-zone-file.sh productioncontrol.com. prodctrl/zone-file-example${style_reset}"
+	echo "		sh generate-zone-file.sh example.com. prodctrl/zone-file-example${style_reset}"
 	echo
 	echo "	Syntax:"
 	echo "		sh generate-zone-file.sh domain_name github_repo"
