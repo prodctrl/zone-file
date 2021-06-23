@@ -174,7 +174,7 @@ echo $zone_file->output();
 ?>
 ```
 
-The above code generates the output below:
+The code above generates the output below:
 
 ```
 $ORIGIN example.com.
